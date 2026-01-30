@@ -7,7 +7,7 @@ This library was originally designed as a catalog for IC selection, but it also 
 * Reproduce the behavior of the real thing as much as possible.
 
 # File Extension
-The original file extension for both software is ".circ", but the formats that can be opened by the two companies are clearly different. Therefore, the library for Logisim-evolution is explicitly listed with the extension ".cricevo".
+Although both software programs use the native file extension ".circ", the formats they can open are distinctly different, which is why Logisim-evolution's libraries are explicitly listed with the ".cricevo" extension.
 
 # Limitations
 * This library does not contain Memory (ROM, RAM, Register File, FIFO, Controller, etc.), PLA, Analog, 11 bits or larger bit width devices.
