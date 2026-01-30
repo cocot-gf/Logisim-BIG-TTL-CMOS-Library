@@ -6,7 +6,7 @@ This library was originally designed as a catalog for IC selection, but it also 
 * Cover the 74 series from 00 to 899 as much as possible.
 * Reproduce the behavior of the real thing as much as possible.
 
-# File Extension
+# File type and Extension
 Although both software programs use the native file extension ".circ", the formats they can open are distinctly different, which is why Logisim-evolution's libraries are explicitly listed with the ".cricevo" extension.
 
 # Limitations
@@ -15,6 +15,9 @@ Although both software programs use the native file extension ".circ", the forma
 * Glitch, Skew, Hazard, Racing, Fanout limitation, and some abnormal conditions may not be perfectly reproduced.
 * Buffers and inverters not related to logic may be omitted to optimize simulator performance.
 * The pin number assignments are for popular dual inline packages.
+
+# File diff issue
+The file contents of Logisim-evolution are sorted and saved by section, but the original Logisim randomly rewrites the file contents even if you just save it over without making any changes. Therefore, text difference comparison does not work at all with the original Logisim library.
 
 # Bug Report
 I have never used an actual IC unless otherwise noted.
