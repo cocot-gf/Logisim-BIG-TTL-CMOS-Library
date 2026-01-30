@@ -8,6 +8,9 @@ The development was based on Logisim 2.7.1, then extended to the CMOS4000 series
 * Cover the 74 series from 00 to 899 as much as possible.
 * Reproduce the behavior of the real thing as much as possible.
 
+# Supported Devices
+<img width="1178" height="674" alt="Supported_Devices" src="https://github.com/user-attachments/assets/0d98d485-a7fd-4caa-9f2d-e148b3ba4489" />
+
 # File type and Extension
 Although both software programs use the native file extension ".circ", the formats they can open are distinctly different, which is why Logisim-evolution's libraries are explicitly listed with the ".cricevo" extension.
 
@@ -25,6 +28,3 @@ The file contents of Logisim-evolution are sorted and saved by section, but the 
 I have never used an actual IC unless otherwise noted.
 Since it is copied from an old datasheet, if the datasheet is incorrect, it may behave differently from the actual IC.
 If you found any problems such as different logic, Open Collector attribute, trigger type or etc., please contact me.
-
-# Supported Devices
-<img width="1178" height="674" alt="Supported_Devices" src="https://github.com/user-attachments/assets/0d98d485-a7fd-4caa-9f2d-e148b3ba4489" />
