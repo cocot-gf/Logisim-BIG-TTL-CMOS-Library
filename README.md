@@ -5,6 +5,7 @@ This library was originally designed as a catalog for IC selection, but it also 
 # Project objectives
 * Cover the 74 series from 00 to 899 as much as possible.
 * Reproduce the behavior of the real thing as much as possible.
+The development was based on Logisim 2.7.1, then extended to the CMOS4000 series and ported to Logisim-evolution.
 
 # File type and Extension
 Although both software programs use the native file extension ".circ", the formats they can open are distinctly different, which is why Logisim-evolution's libraries are explicitly listed with the ".cricevo" extension.
