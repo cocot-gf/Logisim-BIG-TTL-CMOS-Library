@@ -1,5 +1,5 @@
 # Logisim-BIG-TTL-CMOS-Library
-This is TTL 7400 series and CMOS 4000/4500 series library for Logisim 2.7.1 and Logisim-evolution.
+This is TTL 7400 series and CMOS 4000/4500 series library for Logisim 2.7.1 and Logisim-evolution 4.0.0.
 This library was originally designed as a catalog for IC selection, but it also works well in simulations.
 
 ## Latest Verison
